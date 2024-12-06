@@ -2,9 +2,9 @@ import streamlit as st
 from datetime import datetime, timedelta
 
 # Paths to data files
-BUS_TIMINGS_FILE = "bus_timings.txt"
-STUDENT_DATA_FILE = "student_data.txt"
-BOOKINGS_FILE = "bookings.txt"
+BUS_TIMINGS_FILE = "./bus_timings.txt"
+STUDENT_DATA_FILE = "./student_data.txt"
+BOOKINGS_FILE = "./bookings.txt"
 
 # Function to read bus timings
 def load_bus_timings():
